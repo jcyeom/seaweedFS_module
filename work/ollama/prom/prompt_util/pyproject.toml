@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt_util"
+version = "0.1"
+description = "A Python library for typo correction and detection using Ollama."
+authors = [
+    { name = "keti", email = "@example.com" }
+]
+license = { text = "MIT" }
+dependencies = ["requests"]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
