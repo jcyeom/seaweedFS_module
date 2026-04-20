@@ -1,0 +1,23 @@
+# === Project-specific ===
+# Data / download directories
+download/
+
+# Config files (contain server addresses)
+config.json
+
+# Upload/download failure logs
+upload_fail_*.txt
+download_fail_*.txt
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+
+# === Python standard ===
+__pycache__/
+*.py[codz]
+*.pyc
+.env
+.venv
+venv/
+*.egg-info/
